@@ -1,0 +1,77 @@
+/* Общие стили */
+.product-table-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #fff0f6; /* Пастельно-розовый фон */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-title {
+    text-align: center;
+    font-size: 24px;
+    color: #d16c92; /* Розовый цвет заголовка */
+    margin-bottom: 20px;
+  }
+  
+  /* Стили таблицы */
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Белый фон для таблицы */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-table th, .product-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #f2c1d1; /* Легкая розовая граница */
+  }
+  
+  .product-table th {
+    background-color: #ffb3d9; /* Пастельный розовый для заголовков */
+    color: #fff; /* Белый цвет текста */
+  }
+  
+  .product-table tr:nth-child(even) {
+    background-color: #ffe6f2; /* Светло-розовый фон для четных строк */
+  }
+  
+  /* Стили пагинации */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .pagination-button {
+    background-color: #f8a5b3; /* Пастельный розовый для кнопок */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination-button:disabled {
+    background-color: #f2d6d6; /* Светлый оттенок для неактивных кнопок */
+    cursor: not-allowed;
+  }
+  
+  .pagination-button:hover:not(:disabled) {
+    background-color: #f06f94; /* Темный розовый для кнопок при наведении */
+  }
+  
+  .pagination-info {
+    font-size: 16px;
+    margin: 0 10px;
+    color: #d16c92; /* Розовый цвет для текста пагинации */
+  }
+  

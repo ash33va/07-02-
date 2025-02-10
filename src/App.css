@@ -1,0 +1,72 @@
+.active {
+  font-weight: bold;
+  background-color: #ff0066;
+  color: white;
+}
+
+/* Стили для таблицы */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #00ff00; /* Неоново зеленая граница */
+  padding: 10px;
+  text-align: left;
+  color: #fff; /* Белый текст */
+}
+
+th {
+  background-color: #000000; /* Черный фон для заголовков */
+  font-weight: bold;
+  color: #00ff00; /* Неоново зеленый текст */
+}
+
+tr:nth-child(even) {
+  background-color: #1a1a1a; /* Темно-серый фон для четных строк */
+}
+
+tr:nth-child(odd) {
+  background-color: #333333; /* Темный фон для нечетных строк */
+}
+
+tr:hover {
+  background-color: #ff0066; /* Неоново красный фон при наведении */
+}
+
+/* Стили для пагинации */
+div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #00ff00; /* Неоново зеленая граница */
+  background-color: #000000; /* Черный фон */
+  color: #00ff00; /* Неоново зеленый текст */
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #333333; /* Темный фон для неактивных кнопок */
+  cursor: not-allowed;
+  color: #666666; /* Серый цвет текста для неактивных кнопок */
+}
+
+button.active {
+  font-weight: bold;
+  background-color: #ff0066; /* Неоново красный фон для активной страницы */
+  color: white; /* Белый текст для активной страницы */
+  border: 1px solid #ff0066; /* Неоново красная граница */
+}
+
+button:hover:not(:disabled) {
+  background-color: #00ff00; /* Неоново зеленый фон при наведении */
+  color: #000000; /* Черный текст при наведении */
+}
